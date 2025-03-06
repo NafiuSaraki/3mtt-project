@@ -6,6 +6,15 @@
     
   </head>
   <style type="text/css" media="all">
+ body{
+   display: flex;
+   flex-direction: column;
+   min-height: 100vh;
+   margin: 0;
+ }
+ h2{
+   text-align: center;
+ }
   h1{
 text-align: center;
 }
@@ -17,14 +26,14 @@ text-align: center;
     display: grid;
     place-items: center;
     margin-left: 25% ;
-    margin-bottom: 3%;
+    margin-bottom: 20%;
   }
   .hero-image{
    m
   }
     .button{
-   color: #fff;
-   background-color: #028bad;
+   color: #a58080;
+   background-color: #8cb7c8;
    border: none;
   }
 .feature1{
@@ -40,6 +49,14 @@ height: 50%;
 background-color: ;
 display: grid;
 place-items: center;
+}
+header{
+ text-align: center;
+}
+
+.headerp{
+color: #e9d6b5;
+
 }
 
   @media (max-width: 768px) {
@@ -103,39 +120,54 @@ footer{
   footer{
   text-align: center;
   font-size: 1.5rem;
+  padding: 10px;
 }
-  }
+.headerp{
+ font-size: 2rem;
+}
+main{
+ flex: 1;
+ }
+ }
   </style> 
   <body>
-    <div class="hero">
+    <header>
+      <h1 class="">Saraki Phone Store</h1>
+      <p class="headerp">Buy latest phone any where in affordable price and it's guarantee</p>
+    </header>
+    <main >
+      <section class="hero">
+        
+     
       <h1>Iphone 13</h1> 
       <img class="" src="https://live.staticflickr.com/65535/51519358776_aae5f2d29f_b.jpg" alt="" height="80%" width="80%"/>
            <p>guarantee trusted</p>
-      <button class="button" type="submit">Pay now</button>
-    </div>
-          <h1 class="">Feature</h1>
-    <section class="feature">
-</i>
+      <button class="button" type="submit">Buy now</button>
+    </section> 
+          <h2 class="">Feature</h2>
+    <div class="feature"> 
     <div class="feature1">
-    <h2 class="">iphone 14 pro max</h2>  
+    <h3 class="">iphone 14 pro max</h3>  
   <p class="description"> is coming soon to our stores</p> 
       <img class="" src="https://live.staticflickr.com/65535/52481908921_56374e4000_b.jpg" alt="" />
     
     </div>
     <div class="feature1"> 
-      <h2 class="">Samsung s22 ultra</h2>  
+      <h3 class="">Iphone 15 </h3>  
   <p class="description"> is coming soon to our stores</p> 
-      <img class="" src="https://live.staticflickr.com/65535/51906545363_ee3e1c9c7b_b.jpg" alt="" />
+      <img class="" src="https://upload.wikimedia.org/wikipedia/commons/2/2b/IPhone_15.jpeg" alt="" />
     
     </div>
+
     <div class="feature1"> 
-      <h2 class="">iphone 15 pro max</h2>  
+      <h3 class="">iphone 15 pro max</h3>  
   <p class="description"> is coming soon to our stores</p> 
       <img class="" src="https://upload.wikimedia.org/wikipedia/commons/a/a7/IPhone_15_pro_max.jpg" alt="" />
     
     </div>
+    </div>
     
-</section>
+</main>
 <footer>
   <h1>Contact</h1>
   <p><b>Email:</b> nafiubabasaraki@gmail.com</p>
