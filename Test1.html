@@ -3,23 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Profile</title>
+    <title>Personal Profile - Nafiu Baba Saraki</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <style type="text/css" media="all">
-  body {
+  /* Global Styles */
+body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     text-align: center;
+    background-color: #f5f5f5;
 }
 
+/* Header Section */
 header {
-    background-color: #007bff;
+    background-color: #333;
     color: white;
     padding: 20px;
 }
 
+/* Navigation Menu */
 nav ul {
     list-style: none;
     padding: 0;
@@ -33,34 +37,48 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
+    font-weight: bold;
 }
 
+/* Section Styling */
 section {
     padding: 20px;
+    margin: 10px auto;
+    max-width: 600px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+/* Profile Image Styling */
 img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
+    margin-top: 10px;
 }
 
+/* Footer Section */
 footer {
     background-color: #333;
     color: white;
-    padding: 20px;
+    padding: 10px;
+    margin-top: 20px;
 }
 
+/* Responsive Design */
 @media (max-width: 600px) {
-    body {
-        font-size: 14px;
-    }
-    
+    /* Stack navigation items on smaller screens */
     nav ul {
-        display: flex;
-        flex-direction: column;
+        padding: 0;
     }
 
+    nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
+
+    /* Reduce profile image size on small screens */
     img {
         width: 100px;
         height: 100px;
@@ -68,36 +86,62 @@ footer {
 }
 </style>
 <body>
+
+    <!-- Header Section -->
     <header>
-        <h1>My Profile</h1>
+        <h1>Nafiu Baba Saraki</h1>
+        <p>Front-End Developer | Cybersecurity Enthusiast | Crypto Trader</p>
+        
+        <!-- Navigation Menu -->
         <nav>
             <ul>
-                <li><a href="#about">About Me</a></li>
+                <li><a href="#bio">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
                 <li><a href="#hobbies">Hobbies</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <section id="about">
+    <!-- About Me Section -->
+    <section id="bio">
         <h2>About Me</h2>
-        <img src="Semantics_profile.jpg" alt="Profile picture of Nafiu Baba Saraki">
-        <p>Hello! My name is Nafiu Baba Saraki. I am a front-end developer and a crypto trader. I love coding, cybersecurity, and learning new skills.</p>
+        <img src="profile.jpg" alt="Profile picture of Nafiu Baba Saraki">
+        <p>I am a front-end developer with expertise in HTML, CSS, JavaScript, PHP, and Java. I am also passionate about cybersecurity and crypto trading.</p>
     </section>
 
-    <section id="hobbies">
-        <h2>Hobbies</h2>
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>My Skills</h2>
         <ul>
-            <li>Coding</li>
-            <li>Reading about cybersecurity</li>
-            <li>Trading cryptocurrency</li>
+            <li>HTML, CSS, JavaScript</li>
+            <li>PHP, Java</li>
+            <li>Cybersecurity Fundamentals</li>
+            <li>Crypto Technical Analysis</li>
         </ul>
     </section>
 
-    <footer id="contact">
-        <h2>Contact</h2>
-        <p>Email: nafiu@example.com</p>
-        <p>Twitter: <a href="https://twitter.com/nafiu" target="_blank">@nafiu</a></p>
+    <!-- Hobbies Section -->
+    <section id="hobbies">
+        <h2>Hobbies</h2>
+        <ul>
+            <li>Coding & Web Development</li>
+            <li>Exploring Cybersecurity</li>
+            <li>Trading Cryptocurrencies</li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:nafiubasaraki@example.com">nafiubasaraki@example.com</a></p>
+        <p>GitHub: <a href="https://github.com/NafiuSaraki" target="_blank">NafiuSaraki</a></p>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 Nafiu Baba Saraki. All Rights Reserved.</p>
     </footer>
+
 </body>
-    </html>
+                                                </html>
